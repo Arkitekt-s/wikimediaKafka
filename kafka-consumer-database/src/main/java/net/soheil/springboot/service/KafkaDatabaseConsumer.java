@@ -1,4 +1,4 @@
-package net.soheil.springboot;
+package net.soheil.springboot.service;
 
 import net.soheil.springboot.entity.WikimediaData;
 import net.soheil.springboot.repository.WikimediaRepository;

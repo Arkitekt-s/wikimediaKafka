@@ -16,6 +16,7 @@
     <modules>
         <module>kafka-producer-wikimedia</module>
         <module>kafka-consumer-database</module>
+        <module>kafka-elastic-search</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -48,23 +49,7 @@
             <artifactId>spring-kafka-test</artifactId>
             <scope>test</scope>
         </dependency>
-    </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    </dependencies>
 
 </project>
